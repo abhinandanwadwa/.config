@@ -1,0 +1,56 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250418_072654
+====================================================================================================
+
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |               Start device detection               |
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    Initializing HID interfaces: Success
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    |             Detecting I2C interfaces               |
+1009  |Info:    ------------------------------------------------------
+1009  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:164E Subsystem: 1462:9E30
+1009  |Info:    Registering I2C interface: /dev/i2c-10 Device 10DE:2882 Subsystem: 1458:4107
+1009  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:164E Subsystem: 1462:9E30
+1009  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:9E30
+1009  |Info:    Registering I2C interface: /dev/i2c-15 Device 10DE:2882 Subsystem: 1458:4107
+1009  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1009  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-13 Device 10DE:2882 Subsystem: 1458:4107
+1009  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1009  |Info:    Registering I2C interface: /dev/i2c-4 Device 0000:0000 Subsystem: 0000:0000
+1009  |Info:    Registering I2C interface: /dev/i2c-11 Device 10DE:2882 Subsystem: 1458:4107
+1009  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:164E Subsystem: 1462:9E30
+1010  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:164E Subsystem: 1462:9E30
+1010  |Info:    Registering I2C interface: /dev/i2c-9 Device 1022:790B Subsystem: 1462:9E30
+1010  |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:9E30
+1010  |Info:    Registering I2C interface: /dev/i2c-14 Device 10DE:2882 Subsystem: 1458:4107
+1010  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1010  |Info:    Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+1010  |Info:    Registering I2C interface: /dev/i2c-12 Device 10DE:2882 Subsystem: 1458:4107
+1010  |Info:    ------------------------------------------------------
+1010  |Info:    |               Detecting I2C devices                |
+1010  |Info:    ------------------------------------------------------
+2042  |Info:    ------------------------------------------------------
+2042  |Info:    |               Detecting I2C PCI devices            |
+2042  |Info:    ------------------------------------------------------
+2043  |Info:    ------------------------------------------------------
+2043  |Info:    |               Detecting HID devices                |
+2043  |Info:    ------------------------------------------------------
+2048  |Info:    [Logitech G203 Lightsync] Registering RGB controller
+2048  |Info:    ------------------------------------------------------
+2048  |Info:    |            Detecting libusb HID devices            |
+2048  |Info:    ------------------------------------------------------
+2088  |Info:    ------------------------------------------------------
+2088  |Info:    |              Detecting other devices               |
+2088  |Info:    ------------------------------------------------------
+2093  |Info:    ------------------------------------------------------
+2093  |Info:    |                Detection completed                 |
+2093  |Info:    ------------------------------------------------------
+39092 |Info:    Found file: aa.orp attempting to validate header
+39092 |Info:    Valid v4 profile found for aa
+48154 |Info:    Found file: aa.orp attempting to validate header
+48154 |Info:    Valid v4 profile found for aa
+66210 |Info:    Found file: aa.orp attempting to validate header
+66210 |Info:    Valid v4 profile found for aa
